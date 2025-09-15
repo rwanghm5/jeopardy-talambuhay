@@ -6,9 +6,9 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What state was I born in?',
+        question: 'What state is Adirondack Park located in?',
         answer: 'New York',
-    }
+    },
     {
         points: 200,
         question:
@@ -19,8 +19,9 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What school is this?',
+        imgSrc: "https://cdn.corenexis.com/view/9945998168",
+        answer: 'Avenues',
     },
     {
         points: 400,

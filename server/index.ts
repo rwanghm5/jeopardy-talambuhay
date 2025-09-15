@@ -10,7 +10,7 @@ const runServer = () => {
   const server = createServer(app)
   const io = new Server(server, {
     connectionStateRecovery: {
-      maxDisconnectionDuration: 2 * 60 * 1000, // 2 minutes
+      maxDisconnectionDuration: 2 * 60 * 1000, // 2 minutes2
     }
   })
   // SvelteKit should handle everything else using Express middleware
