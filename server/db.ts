@@ -12,8 +12,7 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
+            'Which university was originally named Kings College?',
         answer: 'Myanmar',
     },
     {
@@ -25,26 +24,25 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Which company developed the game: CSGO?',
+        answer: 'Valve',
     }
 ]);
 
 const presentQuestions: Question[] =
     sortQuestions([
         {
+            points: 100,
+            question:
+                'How many grand slams has legendary player Novak Djokovic won?',
+            answer: '24',
+        },
+        {
             points: 200,
             question:
                 'What kind of rock is this?',
             imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
             answer: 'Granite',
-        },
-        {
-            points: 100,
-            question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
         },
         {
             points: 300,
