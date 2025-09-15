@@ -20,7 +20,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 300,
         question:
             'What school is this?',
-        imgSrc: "https://cdn.corenexis.com/view/9945998168",
+        imgSrc: "image-9945998168.png",
         answer: 'Avenues',
     },
     {
