@@ -13,7 +13,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'Which university was originally named Kings College?',
-        answer: 'Myanmar',
+        answer: 'Columbia',
     },
     {
         points: 300,
@@ -23,9 +23,10 @@ const pastQuestions: Question[] = sortQuestions([
         answer: 'Avenues',
     },
     {
-        points: 400,
-        question: 'Which company developed the game: CSGO?',
-        answer: 'Valve',
+        points: 300,
+        question: 'What programming language is the below code?',
+        imgSrc: '1_flCjLnXIFhgFJkB30YjN0g.jpg',
+        answer: 'Python',
     }
 ]);
 
@@ -40,33 +41,48 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'What country is this?',
+            imgSrc: 'https://noisy-lavender-cmyiuhndqo.edgeone.app/blogs_1730221911496-Driver_Ireland2+(1).jpg',
+            answer: 'Ireland',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question:
+                'What ski resort in Japan is the most visited?',
+            answer: 'Niseko',
         },
         {
-            points: 400,
-            question:
-                'Who painted this?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+        points: 400,
+        question: 'Which company developed the game: CSGO?',
+        answer: 'Valve',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'What country is the city of Cancun located in?',
+        answer: 'Mexico',
+    },
+    {
+        points: 200,
+        question:
+            'What is the model of this Bugatti called?',
+        imgSrc: 'https://www.pmw-magazine.com/wp-content/uploads/2023/04/01BUGATTI_Bolide-Design-e1682419347378.jpg',
+        answer: 'Bolide',
+    },
+    {
+        points: 300,
+        question:
+            'What is the largest ski resort in the world called?',
+        imgSrc: 'data:image/jpeg;base64,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',
+        answer: 'Les 3 Vallees',
+    },
+    {
+        points: 400,
+        question:
+            'What gpu from Nvidias Blackwell generation has 16gb of VRAM for under 500 dollars?',
+        answer: 'RTX 5060 ti 16GB',
     }
 ]);
 
