@@ -89,15 +89,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Raydens Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Raydens Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Raydens Future',
         questions: futureQuestions
     }
 ];
