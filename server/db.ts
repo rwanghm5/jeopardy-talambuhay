@@ -23,7 +23,7 @@ const pastQuestions: Question[] = sortQuestions([
         answer: 'Avenues',
     },
     {
-        points: 300,
+        points: 400,
         question: 'What programming language is the below code?',
         imgSrc: '1_flCjLnXIFhgFJkB30YjN0g.jpg',
         answer: 'Python',
@@ -82,7 +82,7 @@ const futureQuestions: Question[] = sortQuestions([
         points: 400,
         question:
             'What gpu from Nvidias Blackwell generation has 16gb of VRAM for under 500 dollars?',
-        answer: 'RTX 5060 ti 16GB',
+        answer: 'RTX 5060 Ti 16GB',
     }
 ]);
 
